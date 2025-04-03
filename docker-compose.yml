@@ -1,0 +1,8 @@
+version: '3'
+services:
+  portfolio:
+    container_name: dogra_rakshita_coding_assignment14
+    build: .
+    ports:
+      - '5575:80'
+    working_dir: /dogra_rakshita_final_site
